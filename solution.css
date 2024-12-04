@@ -1,0 +1,12 @@
+/* solution.css */
+.container {
+  display: flex;
+  width: 500px; /* Explicitly set the width of the container */
+}
+
+.item {
+  width: calc(100% - 10px);
+  background-color: lightblue;
+  padding: 5px;
+}
+/*This solution sets the width of the flex container explicitly.  The calc function should work correctly in this scenario.*/
